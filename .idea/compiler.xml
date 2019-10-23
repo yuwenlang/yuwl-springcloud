@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="yuwl-eureka-server" />
+        <module name="yuwl-springcloud-consumer" />
         <module name="yuwl-eureka-client" />
         <module name="yuwl-soringcloud-feign" />
         <module name="yuwl-springcloud-ribbon" />
@@ -14,7 +15,7 @@
         <module name="yuwl-springcloud-zuul" />
         <module name="yuwl-springcloud-hystrix" />
         <module name="yuwl-springcloud-nativeconfigserver" />
-        <module name="yuwl-springcloud-consumer" />
+        <module name="yuwl-springcloud-gitconfigserver" />
         <module name="yuwl-springcloud-nativeconfigclient" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="yuwl-soringcloud-feign" options="-parameters" />
       <module name="yuwl-springcloud" options="-parameters" />
       <module name="yuwl-springcloud-consumer" options="-parameters" />
+      <module name="yuwl-springcloud-gitconfigserver" options="-parameters" />
       <module name="yuwl-springcloud-hystrix" options="-parameters" />
       <module name="yuwl-springcloud-nativeconfigclient" options="-parameters" />
       <module name="yuwl-springcloud-nativeconfigserver" options="-parameters" />

@@ -19,6 +19,7 @@
         <module>yuwl-springcloud-nativeconfigclient</module>
         <module>yuwl-springcloud-consumer</module>
         <module>yuwl-springcloud-nativeconfigserver</module>
+        <module>yuwl-springcloud-gitconfigserver</module>
     </modules>
 
 
