@@ -1,0 +1,9 @@
+server:
+  port: 8851
+
+spring:
+  application:
+    name: configclient
+  cloud:
+    service-url:
+      defaultZone: http://localhost:8800/eureka/

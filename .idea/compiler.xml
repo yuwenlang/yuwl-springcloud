@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yuwl-eureka-server" />
+        <module name="yuwl-eureka-client" />
+        <module name="yuwl-soringcloud-feign" />
+        <module name="yuwl-springcloud-ribbon" />
+        <module name="yuwl-springcloud-resttemplate" />
+        <module name="yuwl-springcloud-zuul" />
+        <module name="yuwl-springcloud-hystrix" />
+        <module name="yuwl-springcloud-nativeconfigserver" />
+        <module name="yuwl-springcloud-consumer" />
+        <module name="yuwl-springcloud-nativeconfigclient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yuwl-eureka-consumer" target="1.8" />
+      <module name="yuwl-springcloud-configserver" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yuwl-eureka-client" options="-parameters" />
+      <module name="yuwl-eureka-consumer" options="-parameters" />
+      <module name="yuwl-eureka-server" options="-parameters" />
+      <module name="yuwl-soringcloud-feign" options="-parameters" />
+      <module name="yuwl-springcloud" options="-parameters" />
+      <module name="yuwl-springcloud-consumer" options="-parameters" />
+      <module name="yuwl-springcloud-hystrix" options="-parameters" />
+      <module name="yuwl-springcloud-nativeconfigclient" options="-parameters" />
+      <module name="yuwl-springcloud-nativeconfigserver" options="-parameters" />
+      <module name="yuwl-springcloud-resttemplate" options="-parameters" />
+      <module name="yuwl-springcloud-ribbon" options="-parameters" />
+      <module name="yuwl-springcloud-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

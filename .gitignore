@@ -1,0 +1,11 @@
+# Project exclude paths
+/yuwl-eureka-client/target/
+/yuwl-eureka-server/target/
+/yuwl-soringcloud-feign/target/
+/yuwl-springcloud-consumer/target/
+/yuwl-springcloud-hystrix/target/
+/yuwl-springcloud-nativeconfigclient/target/
+/yuwl-springcloud-nativeconfigserver/target/
+/yuwl-springcloud-resttemplate/target/
+/yuwl-springcloud-ribbon/target/
+/yuwl-springcloud-zuul/target/
